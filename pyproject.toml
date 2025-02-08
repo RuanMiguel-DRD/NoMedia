@@ -1,0 +1,42 @@
+[build-system]
+
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "NoMedia"
+version = "1.0.2"
+requires-python = ">=3.6"
+
+description = "Hides the indicated folders from the cell phone's media"
+license = { text = "Unlicense" }
+readme = "README.md"
+
+authors = [
+    { name = "RuanMiguel-DRD", email = "ruanmigueldrd@outlook.com" }
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: The Unlicense (Unlicense)"
+]
+
+[project.urls]
+
+"Homepage" = "https://github.com/RuanMiguel-DRD/NoMedia"
+"Source Code" = "https://github.com/RuanMiguel-DRD/NoMedia"
+"Issue Tracker" = "https://github.com/RuanMiguel-DRD/NoMedia/issues"
+
+[project.optional-dependencies]
+
+dev = ["build", "twine", "vermin", "virtualenv"]
+
+[project.scripts]
+
+nomedia = "nomedia.__main__:main"
+
+[tool.setuptools.packages.find]
+
+where = ["."]
