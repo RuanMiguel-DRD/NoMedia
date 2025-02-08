@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 
 name = "NoMedia"
-version = "1.0.2"
+version = "0.1.0"
 requires-python = ">=3.6"
 
 description = "Hides the indicated folders from the cell phone's media"

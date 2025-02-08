@@ -2,7 +2,7 @@ __url__ = "https://github.com/RuanMiguel-DRD/NoMedia"
 __description__ = "Script to hide and unhide media from the cell phone gallery"
 
 __license__ = "Unlicense"
-__version__ = "1.0.1"
+__version__ = "0.1.0"
 
 
 __author__ = "RuanMiguel-DRD"
