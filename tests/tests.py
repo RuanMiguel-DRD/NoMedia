@@ -2,7 +2,7 @@ import unittest
 
 from os import getcwd, mkdir, rmdir, path
 
-from nomedia.__main__ import check_directory, media_control
+from source.__main__ import check_directory, media_control
 
 
 class TestMain(unittest.TestCase):
